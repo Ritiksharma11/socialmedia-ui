@@ -7,7 +7,7 @@ import { FaRegMoon } from "react-icons/fa";
 
 const BottomNav = ({ toggleDarkMode, darkMode }) => {
     return (
-        <div className='fixed bottom-0 w-full p-2 list-none bg-white/60 dark:bg-black/60 dark:text-white backdrop-blur-md flex justify-around items-center lg:hidden'>
+        <div className='fixed bottom-0 w-full p-2 px-0 list-none bg-white/60 dark:bg-black/60 dark:text-white backdrop-blur-md flex justify-around items-center lg:hidden'>
             <li className='rounded-full py-1 px-2 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900'>
                 <a href="#" className='flex items-center justify-start gap-2  hover:text-blue-500 '><CiHome /> Home</a>
             </li>
