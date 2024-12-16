@@ -17,10 +17,10 @@ const BottomNav = ({ toggleDarkMode, darkMode }) => {
             <li className='rounded-full py-1 px-2 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900'>
                 <a href="#" className='flex items-center justify-start gap-2  hover:text-blue-500 '><TbMessage2 /> Message</a>
             </li>
-            <li  className='rounded-full py-1 px-2 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900'>
+            <li className='rounded-full py-1 px-2 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900'>
                 <button onClick={toggleDarkMode} className='flex items-center justify-start gap-2 hover:text-blue-500'>
                     {darkMode ? <IoSunnyOutline /> : <FaRegMoon />}
-                    {darkMode ? "LightMode" : "DarkMode"}
+                    {darkMode ? "Light" : "Dark"}
                 </button>
             </li>
         </div>
